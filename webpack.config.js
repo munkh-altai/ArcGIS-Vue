@@ -21,6 +21,7 @@ module.exports = env => {
         contentBase: path.resolve(__dirname, './'),
         compress: true,
         historyApiFallback: true,
+        watchContentBase: true,
         noInfo: true,
         port: 8080,
         host:'127.0.0.1',
@@ -91,7 +92,7 @@ module.exports = env => {
 
         plugins: [
             new ExtractTextPlugin("css/[name].css"),
-            // new webpack.HotModuleReplacementPlugin(),
+            new webpack.HotModuleReplacementPlugin(),
             new webpack.NamedModulesPlugin(),
             // new webpack.optimize.UglifyJsPlugin({
             //     sourceMap: true,
@@ -100,9 +101,9 @@ module.exports = env => {
             //     }
             // }),
             //
-            // new webpack.DefinePlugin({
-            //     'process.env.NODE_ENV': JSON.stringify('production')
-            // })
+            new webpack.DefinePlugin({
+                'process.env.NODE_ENV': JSON.stringify('production')
+            })
 
         ],
 
@@ -119,6 +120,7 @@ module.exports = env => {
 
 };
 };
+process.noDeprecation = true
 if (process.env.NODE_ENV === 'prod') {
 
 }

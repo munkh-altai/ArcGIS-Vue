@@ -4,7 +4,7 @@
   "description": "ArcGIS API for JavaScript, Vue, Vuex, Webpack: boilerplate.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack && webpack-dev-server --hot",
+    "start": "webpack && webpack-dev-server --watch",
     "prod": "cross-env NODE_ENV=prod && webpack -p",
     "build": "webpack",
     "stats": "webpack --json > stats.json"

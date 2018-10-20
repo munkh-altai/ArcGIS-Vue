@@ -26,8 +26,6 @@ export default {
             "http://c.tile.openstreetmap.org",
         );
 
-
-
         state.baseMaps = [
             new Basemap({
                 baseLayers: [new WebTileLayer({
@@ -36,7 +34,7 @@ export default {
                 })],
                 title: 'Google Streets',
                 id: "google Streets",
-                thumbnailUrl: "/images/baseMaps/googleStreets.jpg"
+                thumbnailUrl: "/map/images/baseMaps/googleStreets.jpg"
             }),
             new Basemap({
                 baseLayers: [new WebTileLayer({
@@ -46,7 +44,7 @@ export default {
                 title: 'Google Satellite',
                 id: "googleSatellite",
 
-                thumbnailUrl: "/images/baseMaps/googleSatellite.jpg"
+                thumbnailUrl: "/map/images/baseMaps/googleSatellite.jpg"
             }),
             new Basemap({
                 baseLayers: [new WebTileLayer({
@@ -55,7 +53,7 @@ export default {
                 })],
                 title: 'Esri Imagery',
                 id: "imagery",
-                thumbnailUrl: "/images/baseMaps/tempimagery.jpg"
+                thumbnailUrl: "/map/images/baseMaps/tempimagery.jpg"
             }),
             new Basemap({
                 baseLayers: [new WebTileLayer({
@@ -64,12 +62,12 @@ export default {
                 })],
                 title: 'Open Street Map',
                 id: "OpenStreetMap",
-                thumbnailUrl: "/images/baseMaps/openstreet.jpg"
+                thumbnailUrl: "/map/images/baseMaps/openstreet.jpg"
             }),
         ];
 
         state.map = new EsriMap({
-            basemap: state.baseMaps[0]
+            basemap: state.baseMaps[1]
         });
 
 

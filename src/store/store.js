@@ -7,8 +7,6 @@ let zoom = stored('zoom');
 let mode = stored('mode');
 let lng = stored('lng');
 let lat = stored('lat');
-
-
 export default {
     state:{
         mode:mode ? mode : '3D',
@@ -28,10 +26,9 @@ export default {
             lng:lng ? lng : 104.1284
         },
         baseMap:0,
-        zoom: zoom ? zoom :7,
+        zoom: zoom ? zoom : 4,
         layers:[],
-        baseMaps:[],
-
+        baseMaps:[]
      },
     getters,
     mutations,
