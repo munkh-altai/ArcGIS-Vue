@@ -1,5 +1,8 @@
 # ArcGIS API for JavaScript, Vue, Vuex, Webpack: boilerplate
 
+#Demo
+http://munkh-altai.github.io/map/
+
 ## Usage
 
 You can use `yarn` or `npm`
