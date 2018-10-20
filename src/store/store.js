@@ -34,7 +34,6 @@ export default {
     mutations,
     actions,
 };
-
 function stored(key){
    return localStorage.getItem(key);
 }
