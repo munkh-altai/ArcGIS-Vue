@@ -21,4 +21,4 @@ You can use `yarn` or `npm`
 - Vuex
 
 ## Base Maps
-Google,Esri and Open street
+Google(Streets, Satellite), Esri and Open street Map
