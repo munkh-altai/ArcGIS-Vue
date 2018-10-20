@@ -5,6 +5,7 @@ dist/*
 html-report/*
 .baseDir*
 .tsdrc
+.idea
 .tscache
 npm-debug.log
 yarn.lock
@@ -12,3 +13,4 @@ coverage-final.*
 .firebaserc
 firebase.json
 coverage/*
+.idea
