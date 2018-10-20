@@ -1,6 +1,6 @@
 # ArcGIS API for JavaScript, Vue, Vuex, Webpack: boilerplate
 
-#Demo
+# Demo
 http://munkh-altai.github.io/map/
 
 ## Usage
