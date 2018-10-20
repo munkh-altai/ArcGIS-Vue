@@ -1,5 +1,5 @@
 {
-  "name": "ArcGIS API for JavaScript, Vue, Vuex, Webpack: boilerplate",
+  "name": "arcgis_vue",
   "version": "1.0.0",
   "description": "ArcGIS API for JavaScript, Vue, Vuex, Webpack: boilerplate.",
   "main": "index.js",
