@@ -14,4 +14,5 @@ You can use `yarn` or `npm`
 - ES6
 - Live server reloading on updates
 
-#inserted Goole,Esri and Open street map base maps.
+# Base Maps
+Goole,Esri and Open street
