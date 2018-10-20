@@ -1,0 +1,68 @@
+html, body, #app{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  overflow: hidden;
+  font-weight: 300;
+  font-size: $normal;
+  position: relative;
+  *{
+    outline: none;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+
+#map-box {
+  width: calc(100vw);
+  height: 100vh;
+  z-index:1;
+  //margin-left: 50px;
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+#map-box-framed {
+  width: calc(100vw);
+  height: 100vh;
+  z-index:1;
+  //margin-left: 50px;
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+a{
+  color: $main-color;
+  text-decoration: none !important;
+  &:hover{
+    text-decoration: none;
+  }
+}
+#infoDiv {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+}
+#infoDiv input {
+  border: none;
+  border-radius: 0;
+  height: 32px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.esri-ui-inner-container{
+  top:57px !important;
+}
+#base_map{
+ position: absolute;
+  top: 15px;
+  right: 15px;
+}
